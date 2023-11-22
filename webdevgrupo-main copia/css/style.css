@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav{
+    background-color: black;
+}
+
+.btn-primary{
+    background-color: #293495;
+    border-color: #293495;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #293495;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.btn-primary{
+    border-radius: 15px;
+}
+
+.rodape{  
+    
+    background-color: rgba(40, 50, 141, 0.88);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    
+    "rodapeEsquerdo rodapeDireito"
+    ;
+}
+
+.rodapeEsquerdo{
+    grid-template-areas: rodapeEsquerdo;
+    text-align: center;
+}
+
+.rodapeDireito{
+    grid-template-areas: rodapeDireito;
+    display: flex;    
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeDireito a{
+    padding-left: 20px;
+}
+.rodape a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-inner > .carousel-item > img {
+    min-width: 100%;
+    height: 510px; 
+}
+
+.tituloMainBlog{
+    color: #293495;
+    text-align: center;
+}
+
+.card-deck{
+    padding: 0px 100px;
+}
+
+.newsletter{
+    border-radius: 0px 100px;
+    background: var(--Azul-00, #F8F8FF);
+    columns: 2;
+    
+}
+    
+.newsletter h1 {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 40px;
+    color: #293495;
+}
+    
+.newsletter h4 {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 40px;
+    
+}
+    
+.h2 {
+    padding-left: 40px;    
+}
+    
+.h6 {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+    
+.enviar {
+   width: 200px;
+}
+    
+.form {
+    padding-left: 40px;
+}
+
+.form p{
+    padding: 10px;    
+}
+
+button {
+    display: inline;
+    padding: 5px 14px;
+    align-items: center;
+    gap: 8px;
+    background-color: #293495;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+.form-inline img{
+    width: 30px;
+    height: 30px;
+}
+
+.dadosInfoCep{
+    text-align: center;
+}
+
+.container-banner {
+    position: relative;
+  
+  }
+
+.Image1 {
+    width: 100%;
+    height: 600px;
+  }
+
+  #texto {
+    text-align: center;
+    position: absolute;
+    font-size: 200px;
+    left: 250px;
+    top: 135px;
+    left: 28%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+ 
+  }
+  
+  .Texto1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .Imagee01 {
+    width: 70px;
+  }
+  
+  .Image2 {
+    width: 30px;
+  }
+  
+  .Image3 {
+    width: 30px;
+  }
+  
+  .Image4 {
+    width: 30px;
+  }
+#texto10{
+    text-align: center;
+    position: absolute;
+    font-size: 200px;
+    left: 250px;
+    top: 135px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    left: 22%;  
+}
+#texto11{
+    text-align: center;
+    position: absolute;
+    font-size: 200px;
+    left: 250px;
+    top: 135px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    left: 33%;  
+}
